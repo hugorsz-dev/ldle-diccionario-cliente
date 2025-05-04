@@ -88,38 +88,3 @@ Consulta la guía de contribución para más detalles.
 
 Este proyecto está licenciado bajo la [Licencia GPL-3.0](LICENSE) - vea el archivo LICENSE para más detalles.
 
----
-
-<div align="center">
-  <p>Desarrollado con ❤️ por Hugo Ruiz Sánchez</p>
-  <p>© 2024 - L·DLE: Haciendo accesible el conocimiento de la lengua española</p>
-</div>
-[1. (primo,ma)
-errores en la búsqueda de "cobacha" (covacha)
-añadir las formas compuestas como palabras (redir: 
-los anagramas no funcionan con "ñ"
-las palabras escrita en mayúscula "HOLA" arrojan como erróneas, añadir una comprobación en las palabras erroneas (incorrect) para admitir ese caso (pasar todas las letras a minúsculas)
-
-emblematizada" no se encuentra en el diccionario (verbos masculinos sí, femeninos no, añadir esa comprobación)
-
-algunas redirecciones enlazan a una sola palabra - poetisa, arcoíris
-
-sinónimos redundantes (faltriquera)
-
-(al avío - avío) las formas compuestas se preceden de un "loc", incorrecto. 
-
-alabarda 
-
--> (tea) en las formas compuestas, ver que todas las definiciones terminen con un "." al final, de modo que no haya acepciones mal puestas. 
-Eliminar "["
-
-Al hacer anagramas, la "canonización" se realiza, y pasa las "ñ" a "n", eso hay que modificarlo en el frontend
-
-si hay una letra suelta al final  de una forma compuesta, pasarla a la acepción (cedro)
-
-yuxtaposición
-> sinónimo repite la palabra
-
-al buscar la palabra "haces" -> hacer, haz
-
-la palabra "neciamnente"
