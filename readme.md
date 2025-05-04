@@ -46,27 +46,29 @@ Desarrollado como una alternativa libre a los recursos lexicográficos privados,
 
 -  **Funciona sin conexión** - toda la base de datos está integrada
 
-##  Instalación
+##  Instalación desde cero
 
-### Aplicación Web
+- Ve al repositorio de [ldle-diccionario-db] (https://github.com/hugorsz-dev/) y sigue las instrucciones.
 
-Simplemente abre el archivo `index.html` en tu navegador favorito.
-
-### Windows
-
-1. Descarga el archivo instalador `.exe` o `.setup`
-2. Ejecuta el instalador y sigue las instrucciones
-3. Inicia L·DLE desde el menú de inicio o el acceso directo creado en el escritorio
+- Mueve el archivo resultante del anterior paso (`diccionario_sin_etiquetas_con_conjugaciones_sinonimos_redirecciones_sin_redundancias.json`) dentro de la carpeta `database` de este repositorio. 
 
 ### Linux
 
-1. Descarga el archivo AppImage
-2. Dale permisos de ejecución: `chmod +x LDLE-x.x.x.AppImage`
-3. Ejecuta la aplicación: `./LDLE-x.x.x.AppImage`
+Para sistemas operativos con base Linux, deberás ejecutar los siguientes comandos para componer el *AppImage* mediante electron: 
+
+``` bash
+
+npm install electron-builder
+
+chmod +x ./node_modules/app-builder-bin/linux/x64/app-builder
+
+npm run build-linux
+
+```
+
+Tras de lo cual, el ejecutable se instalará dentro de la carpeta `dist`. Dale permisos de ejecución: `chmod +x LDLE-x.x.x.AppImage` y ejecuta la aplicación: `./LDLE-x.x.x.AppImage`.
 
 ## Uso
-
-![Interfaz de L·DLE](https://via.placeholder.com/800x450?text=Interfaz+de+L·DLE)
 
 1. Escribe una palabra en el campo de búsqueda
 2. Selecciona el tipo de búsqueda en la barra lateral
