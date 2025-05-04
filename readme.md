@@ -17,7 +17,7 @@
 
 ## Descripción
 
-L·DLE (Libre Diccionario de la Lengua Española) es una aplicación que proporciona todas las funcionalidades lexicográficas de un diccionario de español moderno y completo, con la ventaja de ser completamente libre y de poder usarse sin conexión a internet.
+**L·DLE** *(Libre Diccionario de la Lengua Española)* es una aplicación que proporciona todas las funcionalidades lexicográficas de un diccionario de español moderno y completo, con la ventaja de ser completamente libre y de poder usarse sin conexión a internet.
 
 Desarrollado como una alternativa libre a los recursos lexicográficos privados, L·DLE aspira a convertirse en una herramienta para estudiantes, escritores, programadores y cualquier persona interesada en el idioma español.
 
