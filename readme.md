@@ -48,9 +48,13 @@ Desarrollado como una alternativa libre a los recursos lexicográficos privados,
 
 ##  Instalación desde cero
 
-- Ve al repositorio de [ldle-diccionario-db](https://github.com/hugorsz-dev/) y sigue las instrucciones.
+- Ve al repositorio de [ldle-diccionario-db](https://github.com/hugorsz-dev/), clónalo y ejecuta `./generar.sh`. Necesitarás `python3`, `pip` y `python3-venv`
 
-- Mueve el archivo resultante del anterior paso (`diccionario_sin_etiquetas_con_conjugaciones_sinonimos_redirecciones_sin_redundancias.json`) dentro de la carpeta `database` de este repositorio. 
+- Crea una carpeta vacía llamada `database` en la raíz de este repositorio. 
+
+- Mueve el archivo resultante del anterior paso (`diccionario_sin_etiquetas_con_conjugaciones_sinonimos_redirecciones_sin_redundancias.json`) dentro de la carpeta `database`.
+
+- Los pasos siguientes cambiarán según quieras construir el proyecto para Linux o para Windows. 
 
 ### Linux
 
