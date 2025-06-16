@@ -4,8 +4,10 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build-win": "electron-builder -p always --win",
-    "build-linux": "electron-builder -p always --linux"
+    "build-win": "electron-builder --win",
+    "build-linux": "electron-builder --linux",
+    "build-win-publish": "electron-builder -p always --win",
+    "build-linux-publish": "electron-builder -p always --linux"
   },
   "author": "",
   "license": "ISC",
