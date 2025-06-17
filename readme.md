@@ -9,7 +9,7 @@
 </h1>
   
 [![Version](https://img.shields.io/badge/version-0.9.0-blue.svg)](https://github.com/username/ldle)
-[![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 *Un diccionario libre de la lengua española*
   
@@ -92,5 +92,5 @@ Consulta la guía de contribución para más detalles.
 
 ## Licencia
 
-Este proyecto está licenciado bajo la [Licencia GPL-3.0](LICENSE) - vea el archivo LICENSE para más detalles.
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE) - vea el archivo LICENSE para más detalles.
 
