@@ -8,7 +8,7 @@
     <span style="color:rgb(18, 27, 99)">E</span>
 </h1>
   
-[![Version](https://img.shields.io/badge/version-0.9.0-blue.svg)](https://github.com/username/ldle)
+[![Version](https://img.shields.io/badge/version-0.7.0-blue.svg)](https://github.com/username/ldle)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 *Un diccionario libre de la lengua española*
